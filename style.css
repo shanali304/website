@@ -1,0 +1,1249 @@
+.main1{
+  max-width: 1170px;
+  margin: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background-color: #316DC3;
+    padding-bottom: 1.5%;
+}
+
+.icon{
+    margin-top: 10px;
+    margin-bottom: 0rem;
+    margin-left: 3rem;
+}
+
+#fb , #tw , #inst, #youtube, #whatsapp{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.button_top{
+    color: green ;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.top_p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0rem;
+    font-size: 88%;
+    text-align: left;
+    margin-left: -1%;
+}
+.btn_top{
+    
+    color: green;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Section{
+    display: none;
+  }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .Section{
+        display: none;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .Section{
+        display: none;
+      }
+  } 
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .Section{
+        display: block;
+      }
+
+      
+      .top_p{
+        font-size: 72%;
+        margin-left: -1%;    
+      }
+
+      
+      
+   .btn_top{
+    font-size: small;
+   }
+
+   .icon{
+    margin-left: 0rem;
+   }
+  } 
+
+  @media only screen and (min-width: 1024px) {
+    .Section{
+        display: block;
+      }
+
+      .top_p{
+        
+    font-size: 71%;
+    margin-left: -1%;
+
+      }
+      
+   .btn_top{
+    font-size: small;
+   }
+
+   .icon{
+    margin-left: 0rem;
+   }
+    
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .Section{
+        display: block;
+      }
+
+      .top_p{
+        
+        font-size: 93%;
+        margin-left: -10%;
+    
+          }
+          
+       .btn_top{
+        font-size: small;
+       }
+    
+       .icon{
+        margin-left: 0rem;
+       }
+  }
+
+  /* Navbar Start */
+
+.nav-item{
+  margin-left: 4.3rem;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav-item{
+    margin-left: 0rem;
+  }
+
+  ul li.active a{
+    background: #316DC3;
+    color: white !important;
+    border-radius: 20px !important;
+  }
+
+  }
+
+  @media only screen and (min-width: 320px) {
+    .nav-item{
+      margin-left: 2rem;
+      margin-top: 2%;
+    }
+  
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-right: 57%;
+      margin-left: -1.5rem;
+      text-align: center;
+    }
+    
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 57%;
+      margin-left: -1.5rem;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 375px) {
+    .nav-item{
+      margin-left: 2rem;
+      margin-top: 2%;
+    }
+  
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-right: 65%;
+      margin-left: -1.5rem;
+      text-align: center;
+    }
+    
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 65%;
+      margin-left: -1.5rem;
+      text-align: center;
+    }
+  }
+
+@media only screen and (min-width: 425px) {
+  .nav-item{
+    margin-left: 2rem;
+    margin-top: 2%;
+  }
+
+  ul li.active a{
+    background: #316DC3;
+    color: white !important;
+    border-radius: 20px !important;
+    margin-right: 68%;
+    margin-left: -1.5rem;
+    text-align: center;
+  }
+  
+  .link:hover {
+    background: #316DC3;
+    color: white !important;
+    border-radius: 20px ;
+    margin-right: 68%;
+    margin-left: -1.5rem;
+    text-align: center;
+  }
+
+
+
+}
+
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .nav-item{
+      margin-left: 2rem;
+      margin-top: 2%;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-right: 80%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+    
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 80%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+
+  
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .nav-item{
+      margin-left: 2rem;
+      margin-top: 2%;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-right: 80%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+    
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 80%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+
+  } 
+  
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .nav-item{
+      margin-left: 1rem;
+      margin-top: -0%;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-left: -30%;
+      margin-right: 1%;
+      text-align: center;
+    }
+    
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 1%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+    
+  } 
+
+  @media only screen and (min-width: 1024px) {
+    .nav-item{
+      margin-left: 1.3rem;
+      margin-top: 0%;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-left: 0.8rem;
+      margin-right: 2%;
+      text-align: center;
+    }
+
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 2%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+    
+
+  } 
+  
+  
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .nav-item{
+      margin-left: 3.7rem;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-left: -30%;
+      margin-right: 1%;
+      text-align: center;
+    }
+
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 2%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+
+  }
+
+ 
+
+  @media only screen and (min-width: 1440px) {
+    .nav-item{
+      margin-left: 4.7rem;
+      margin-top: 0%;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-right: 2%;
+      text-align: center;
+    }
+
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 2%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+    
+
+  } 
+
+  @media only screen and (min-width: 2550px) {
+    .nav-item{
+      margin-left: 14rem;
+    }
+
+    ul li.active a{
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px !important;
+      margin-left: -30%;
+      text-align: center;
+    }
+    
+    .link:hover {
+      background: #316DC3;
+      color: white !important;
+      border-radius: 20px ;
+      margin-right: 2%;
+      margin-left: -1rem;
+      text-align: center;
+    }
+
+    }
+
+ul li a{
+text-decoration: none;
+}
+    
+
+ul li a:hover {
+    background: #316DC3;
+    color: white !important;
+    border-radius: 20px ;
+  }
+
+
+  .dropdown-item:hover{
+    background-color: gainsboro !important;
+    color: black !important;
+  }
+
+
+
+  /* Introduction Style*/
+
+
+  .about{
+    padding: 60px 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .intro{
+    margin-top: 60px;
+    margin-left: 180px;
+    font-size: 30px;
+    }
+
+    .favicon{
+      margin-left: 230px;
+    }
+    .favicon_img{
+      height: 42px;
+    }
+  }
+
+  @media only screen and (min-width: 320px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 57px;
+      font-size: 25px;
+      }
+  
+      .favicon{
+        margin-left: 87px;
+      }
+      .favicon_img{
+        height: 42px;
+      }
+    }
+
+    @media only screen and (min-width: 375px) {
+      .intro{
+        margin-top: 60px;
+        margin-left: 90px;
+        font-size: 25px;
+        }
+    
+        .favicon{
+          margin-left: 120px;
+        }
+        .favicon_img{
+          height: 42px;
+        }
+      }
+
+      
+    @media only screen and (min-width: 425px) {
+      .intro{
+        margin-top: 60px;
+        margin-left: 110px;
+        font-size: 25px;
+        }
+    
+        .favicon{
+          margin-left: 142px;
+        }
+        .favicon_img{
+          height: 42px;
+        }
+      }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 180px;
+      font-size: 30px;
+      }
+
+      .favicon{
+        margin-left: 230px;
+      }
+      .favicon_img{
+        height: 42px;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 250px;
+      font-size: 35px;
+      }
+
+      .favicon{
+        margin-left: 320px;
+      }
+      .favicon_img{
+        height: 42px;;
+      }
+  } 
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 350px;
+      font-size: 40px;
+      }
+
+      .favicon{
+        margin-left: 440px;
+      }
+      .favicon_img{
+        height: 42px;
+      }
+  } 
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 500px;
+      font-size: 40px;
+      }
+      .favicon{
+        margin-left: 590px;
+      }
+      .favicon_img{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 550px;
+      font-size: 50px;
+      }
+      .favicon{
+        margin-left: 670px;
+      }
+      .favicon_img{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .intro{
+      margin-top: 60px;
+      margin-left: 1040px;
+      font-size: 60px;
+      }
+      .favicon{
+        margin-left: 1200px;
+      }
+      .favicon_img{
+        height: 42px;
+      }
+  }
+
+
+
+
+   /* Blue Line Style*/
+  
+   .img_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+   }
+
+   .count-box{
+    text-align: center;
+   }
+
+
+   /* What are Doing card Style*/
+
+   
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .intro1{
+      margin-top: 60px;
+      margin-left: 100px;
+      font-size: 35px;
+      }
+
+      .favicon1{
+        margin-left: 215px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 320px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 47px;
+      font-size: 20px;
+      }
+  
+      .favicon1{
+        margin-left: 85px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+    }
+
+    @media only screen and (min-width: 375px) {
+      .intro1{
+        margin-top: 60px;
+        margin-left: 55px;
+        font-size: 23px;
+        }
+    
+        .favicon1{
+          margin-left: 110px;
+        }
+        .favicon_img1{
+          height: 42px;
+        }
+      }
+
+      
+    @media only screen and (min-width: 425px) {
+      .intro1{
+        margin-top: 60px;
+        margin-left: 55px;
+        font-size: 27px;
+        }
+    
+        .favicon1{
+          margin-left: 128px;
+        }
+        .favicon_img1{
+          height: 42px;
+        }
+      }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 100px;
+      font-size: 35px;
+      }
+
+      .favicon1{
+        margin-left: 215px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 180px;
+      font-size: 35px;
+      }
+
+      .favicon1{
+        margin-left: 300px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  } 
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 262px;
+      font-size: 40px;
+      }
+
+      .favicon1{
+        margin-left: 405px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  } 
+
+  @media only screen and (min-width: 1020px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 290px;
+      font-size: 40px;
+      }
+
+      .favicon1{
+        margin-left: 430px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 432px;
+      font-size: 41px;
+      }
+
+      .favicon1{
+        margin-left: 580px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 450px;
+      font-size: 45px;
+      }
+
+      .favicon1{
+        margin-left: 610px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .intro1{
+      margin-top: 60px;
+      margin-left: 990px;
+      font-size: 50px;
+      }
+
+      .favicon1{
+        margin-left: 1190px;
+      }
+      .favicon_img1{
+        height: 42px;
+      }
+  }
+
+/* Card Style */
+
+.card_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_text{
+  text-align: center;
+}
+
+.card-body:hover{
+  margin-top: -10px;
+  height: 200px; 
+}
+
+
+/* Mission Section style */
+
+   /* Extra small devices (phones, 600px and down) */
+   @media only screen and (max-width: 600px) {
+    .icon-box1{
+      margin-left: 10px;
+     }
+     .text-mission{
+      margin-left: 2%
+     }
+     .features{
+      margin-left: 2%;
+     }
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .icon-box1{
+        margin-left: 10px;
+       }
+       .faq{
+        margin-left: 3%;
+       }
+       .text-mission{
+        margin-left: 2%
+       }
+       .features{
+        margin-left: 2%;
+       }
+    } 
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      .icon-box1{
+        margin-left: 10px;
+       }
+       .faq{
+        margin-left: 3%;
+       }
+       .text-mission{
+        margin-left: 2%
+       }
+       .features{
+        margin-left: 2%;
+       }
+    } 
+  
+    @media only screen and (min-width: 1020px) {
+      .icon-box1{
+        margin-left: 10px;
+       }
+       .faq{
+        margin-left: 3%;
+       }
+       .text-mission{
+        margin-left: 2%
+       }
+       .features{
+        margin-left: 2%;
+       }
+    }
+  
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+     .icon-box1{
+      margin-left: 10px;
+     }
+     .faq{
+      margin-left: 3%;
+     }
+     .text-mission{
+      margin-left: 2%
+     }
+     .features{
+      margin-left: 2%;
+     }
+    }
+  
+    @media only screen and (min-width: 1440px) {
+      .icon-box1{
+        margin-left: 10px;
+      }
+      .faq{
+        margin-left: 3%;
+       }
+       .text-mission{
+        margin-left: 2%
+       }
+       .features{
+        margin-left: 2%;
+       }
+    }
+  
+    @media only screen and (min-width: 2560px) {
+      .icon-box1{
+        margin-left: 10px;
+      }
+      .faq{
+        margin-left: 3%;
+       }
+       .text-mission{
+        margin-left: 2%
+       }
+       .features{
+        margin-left: 2%;
+       }
+    }
+
+
+    .mini-card-name{
+      text-decoration: none;
+    }
+
+    .mini-card-name:hover{
+      text-decoration: underline;
+      transition: all .3s ease;
+    }
+
+
+/* Image Gallery Style */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  .intro2{
+    margin-top: 60px;
+    margin-left: 75px;
+    font-size: 30px;
+    }
+
+    .favicon2{
+      margin-left: 85px;
+    }
+    .favicon_img2{
+      height: 42px;
+    }
+
+  
+  }
+
+  @media only screen and (min-width: 320px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 75px;
+      font-size: 30px;
+      }
+  
+      .favicon2{
+        margin-left: 85px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+    }
+
+    @media only screen and (min-width: 375px) {
+      .intro2{
+        margin-top: 60px;
+        margin-left: 100px;
+        font-size: 30px;
+        }
+    
+        .favicon2{
+          margin-left: 107px;
+        }
+        .favicon_img2{
+          height: 42px;
+        }
+      }
+
+      
+    @media only screen and (min-width: 425px) {
+      .intro2{
+        margin-top: 60px;
+        margin-left: 110px;
+        font-size: 35px;
+        }
+    
+        .favicon2{
+          margin-left: 131px;
+        }
+        .favicon_img2{
+          height: 42px;
+        }
+      }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 180px;
+      font-size: 40px;
+      }
+  
+      .favicon2{
+        margin-left: 215px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 255px;
+      font-size: 40px;
+      }
+  
+      .favicon2{
+        margin-left: 290px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  } 
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 380px;
+      font-size: 42px;
+      }
+  
+      .favicon2{
+        margin-left: 420px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  } 
+
+  @media only screen and (min-width: 1020px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 380px;
+      font-size: 45px;
+      }
+
+      .favicon2{
+        margin-left: 428px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 540px;
+      font-size: 50px;
+      }
+
+      .favicon2{
+        margin-left: 605px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 570px;
+      font-size: 50px;
+      }
+
+      .favicon2{
+        margin-left: 635px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .intro2{
+      margin-top: 60px;
+      margin-left: 1150px;
+      font-size: 50px;
+      }
+
+      .favicon2{
+        margin-left: 1215px;
+      }
+      .favicon_img2{
+        height: 42px;
+      }
+  }
+
+
+  /* Image Gallery Style */
+
+  .links{
+    text-decoration: none;
+  }
+
+  .saylani-img{
+    box-shadow: 0 0 10px 1.5px #282a2d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+  }
+  
+  .portfolio-wrap{
+    transition: transform .2s;
+  }
+
+  .portfolio-wrap:hover {
+    transform: scale(1.1);
+  }
+
+  /* Footer Style */
+
+  .footer_icon{
+    color: white;
+    font-size: 5%;
+  }
+ 
+  .nav-link1{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  }
+
+  .nav-link1:hover{
+    color: white;
+  }
+
+  .ul_footer{
+    padding-left: 0rem;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ul_footer{
+    display: block;
+  }
+}  
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.ul_footer{
+  display: block;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ul_footer{
+    display: flex;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #141c38;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.back-to-top-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #7ac9f9;
+}
+
+.progress-bar {
+  height: 1rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+/* Counter */
+
+.counter-container{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-container > div{
+  flex: 1;
+  max-width: 250px;
+  text-align: center;
+}
